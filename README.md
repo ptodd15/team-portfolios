@@ -1,9 +1,10 @@
-#10 Object-Oriented Programming: Team Profile Generator
+## 10 Object-Oriented Programming: Team Profile Generator
 
 Your challenge is to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Because testing is key to making code maintainable, you’ll also write unit tests for each part of your code and ensure that it passes all of them.
 
-User Story
-'''
+## User Story
+
+```
 AS A manager
 I WANT to generate a webpage that displays my team's basic info
 SO THAT I have quick access to their emails and GitHub profiles
@@ -25,12 +26,17 @@ WHEN I select the intern option
 THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
-'''
-#Using
+```
 
-'''
+## Using
+
+```
 node.js
 JavaScript
 Inquirer
 jest
-'''
+```
+
+## Error
+
+![undefined intern selector](.//Images/Screenshot%202022-10-05%20234101.png)
